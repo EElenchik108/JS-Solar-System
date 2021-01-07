@@ -1,0 +1,223 @@
+body {
+	scroll-behavior: smooth;	
+	background-size: 100%;
+	background: url(../images/1.gif); 
+	padding-top: 3%;
+	padding-left: 18%;	
+	
+}
+
+h1{
+	color:rgba(254, 248, 153, 0.2);	
+	font-size: 6em;
+	text-align: center;
+	margin-left: -2%;
+	margin-top: -40%;
+}
+
+#Sun, #Mercury,#Venus,#Earth,#Mars,#Jupiter,#Saturn,#Uranus,#Neptune, #Saturn2/* , #moon */ {
+	position: absolute;	
+	border-radius: 100%;
+	z-index: 5;
+	
+}
+
+#Sun{
+	background: url(../images/Sun.gif) -37px 4px no-repeat;
+	background-size: 160%;
+	width:120px; 
+	height:120px;
+	top:30px; 
+	left:28px;
+}
+
+#Mercury{
+	background: url(../images/Mercury.gif) -4px -2px no-repeat;
+	background-size: 160%;
+	width:15px; 
+	height:15px;
+	top:0px; 
+	left:0px;
+}
+
+#Venus{
+	background: url(../images/Venus.gif)  -5px -1px no-repeat;
+	background-size: 138%;
+	width:30px; 
+	height:30px;
+	top:40px; 
+	left:69px;
+}
+#Earth{
+	background: url(../images/Earth.gif)  -1px -1px no-repeat;
+	background-size: 111%;
+	width:37px; 
+	height:37px;
+	top:200px; 
+	left:0;
+	position: relative;
+}
+
+#moon{
+	background: #EFF0E8;
+	width:6px; 
+	height:6px;
+	margin-left: -4px;
+	margin-top: -4px;
+	border-radius: 100%;
+	animation: 1s rot linear infinite;
+	transform-origin: 21px 21px;
+}
+
+@keyframes rot {
+  to {
+    transform: rotate(360deg); 
+  }
+}
+
+
+#Mars{
+	background: url(../images/Mars.gif) -1px -1px no-repeat;
+	background-size: 112%;
+	width:25px; 
+	height:25px;
+	top:250px; 
+	left:0;
+}
+
+#Jupiter{
+	background: url(../images/Jupiter.gif) -12px -1px no-repeat;
+	background-size: 138%;
+	width:65px; 
+	height:65px;
+	top:300px; 
+	left:0;
+	z-index: 6;
+}
+
+#Saturn{
+	background: url(../images/Saturn1.gif) 2px 4px no-repeat;
+	background-size: 96%;
+	width:97px; 
+	height:97px;
+	top:300px; 
+	left:100px;
+	border-radius: 230% 30% 300% 30%;
+}
+
+#Uranus{
+	background: url(../images/Uranus.gif) -13px -5px no-repeat;
+	background-size: 158%;
+	width:45px; 
+	height:45px;
+	top:400px; 
+	left:0;
+}
+
+#Saturn2 {	
+	width: 45px;
+	height: 45px;
+	z-index: 3;		
+	top:10px;
+	right:27px;
+	  
+}
+
+#Neptune {
+	border-radius: 170%;
+	width:40px; 
+	height:40px; 
+	background: url(../images/Neptune.gif) -13px -10px no-repeat;
+	background-size: 169%; 
+	top:0; 
+	left:0;
+}
+
+#Mercury,#Venus,#Earth,#Mars,#Jupiter,#Saturn2,#Uranus,#Neptune {
+box-shadow: 0 0 15px rgba(0,155,255,0.5),
+            0 0 30px rgba(0,155,255,0.5),
+            0 0 45px rgba(0,155,255,0.5),
+            0 0 60px rgba(0,155,255,0.5),
+            0 0 10px rgba(0,155,255,0.5);	
+}
+
+#rad0 {
+	width:1100px; 
+	height:1100px;
+}
+
+#rad5 {
+	width:1000px; 
+	height:1000px;
+	top:48px;
+		
+}
+
+#rad {
+	width:700px; 
+	height:700px;
+	border-radius: 100%;
+	top:69px;
+		
+}
+
+#rad1 {
+	width:860px; 
+	height:860px;
+	top:70px;
+		
+}
+
+#rad2 {
+	width:530px; 
+	height:530px;
+	top:87px;
+		
+}
+
+#rad3 {
+	width:420px; 
+	height:420px;
+	top:50px;
+			
+}
+
+#rad4 {
+	width:340px; 
+	height:340px;
+	top:38px;			
+}
+
+#rad6 {
+	width:234px; 
+	height:234px;
+	top:51px;
+	
+}
+
+#rad7 {
+	width:177px; 
+	height:177px;
+	top:30px;
+		
+}
+
+#rad, #rad1,#rad2,#rad3,#rad4,#rad5,#rad6,#rad7 {
+	border-radius: 100%;
+	border: 1px solid rgba(0,155,255,0.4);	
+	position: absolute;
+	display: flex;	
+	justify-content:center;	
+	vertical-align: center;
+	
+}
+
+#Sun2 {
+	width:100px; 
+	height:100px;
+	border-radius: 100%;
+	margin-top: 8px;
+	margin-left: 10px;
+	-webkit-box-shadow: -1px 2px 50px 23px rgba(255,222,74,0.61); 
+	box-shadow: -1px 2px 50px 23px rgba(255,222,74,0.61);
+}
